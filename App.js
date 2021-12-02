@@ -16,7 +16,7 @@ import close from './assets/close.png';
 import photo from './assets/photo.jpg';
 
 export default function App() {
-  const [currentTab, setCurrentTab] = useState("Home");
+  const [currentTab, setCurrentTab, imageTab] = useState("Home");
   // To get the curretn Status of menu ...
   const [showMenu, setShowMenu] = useState(false);
 
